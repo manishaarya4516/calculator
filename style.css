@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+  }
+  
+  .clss {
+    margin: 50px auto;
+    border-collapse: collapse;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .clss td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .clss input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    text-align: right;
+    border: none;
+    background-color: #eee;
+  }
+  
+  .clss input[type="button"] {
+    width: 100%;
+    padding: 15px;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: #f1f1f1;
+    border: none;
+  }
+  
+  .clss input[type="button"]:hover {
+    background-color: #ddd;
+  }
+  
+  .clss input[type="button"]:active {
+    background-color: #ccc;
+  }
+  
+  /* Styling the 'C' button */
+  .clss input[value="C"] {
+    background-color: #ff6666;
+    color: white;
+  }
+  
+  /* Styling the '=' button */
+  .clss input[value="="] {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  /* Styling the operator buttons (+, -, *, /) */
+  .clss input[type="button"][value="+"],
+  .clss input[type="button"][value="-"],
+  .clss input[type="button"][value="*"],
+  .clss input[type="button"][value="/"] {
+    background-color: #f0ad4e;
+    color: white;
+  }
+  
+  /* Styling the decimal button */
+  .clss input[type="button"][value="."] {
+    background-color: #5bc0de;
+    color: white;
+  }
+  
+  /* Styling the numeric buttons (0-9) */
+  .clss input[type="button"][value="0"],
+  .clss input[type="button"][value="1"],
+  .clss input[type="button"][value="2"],
+  .clss input[type="button"][value="3"],
+  .clss input[type="button"][value="4"],
+  .clss input[type="button"][value="5"],
+  .clss input[type="button"][value="6"],
+  .clss input[type="button"][value="7"],
+  .clss input[type="button"][value="8"],
+  .clss input[type="button"][value="9"] {
+    background-color: #337ab7;
+    color: white;
+  }
+  
